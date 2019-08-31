@@ -1,0 +1,12 @@
+create database bouldering_db;
+create table deadpoint(id int, p_distance float, p_angle float, m_distance float, m_angle float, mainhand int);
+
+use bouldering_db;
+show tables;
+select * from deadpoint;
+
+本番用環境
+bouldering_db
+テスト環境
+test_db
+test2_db
